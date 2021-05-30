@@ -8,14 +8,15 @@ body{
   font-weight: bold;
 }
 
-.image-container {
+.home-container {
   height: 600px;
+  width: 85%
 }
 
 .nav-link:hover {
   color: blue !important;
 }
-hr {
+.hr {
   margin: auto;
   margin-top: 5px;
   border: 0;
@@ -27,4 +28,37 @@ hr {
     rgba(255, 255, 255, 0.75),
     rgba(255, 255, 255, 0)
   );
+}
+
+
+.whatsapp {
+  border-radius: 50%;
+  font-size: 45px;
+  width: 70px;
+  z-index: 3;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background: #25d366;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  border: 1px solid #767676;
+  left: 10px;
+}
+
+.whatsapp:hover {
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .home-img{
+    display: none;
+  }
+  .home-container {
+    width: 100%;
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+  }
 }
