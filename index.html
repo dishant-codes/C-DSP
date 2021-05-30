@@ -64,14 +64,16 @@
         <div class="home-container mx-auto d-flex justify-content-evenly align-items-center px-5">
             <div class="container text-light ">
                 <h2 style="font-size: 3rem;">Online Technical Courses</h2>
-                <h2>Blended Learning for Polytechnic <br> And Engineering Students</h2>
-                <ul>
-                    <li>In Engineering Designs and Programming </li>
-                    <li>In PLC and Industrial Automation</li>
-                    <li>In Microcontrollers Based Power Control</li>
-                    <li>In Microcontrollers and Embedded System Design</li>
-                    <li>In Programmable VLSI Design - VHDL and Verilog Programming </li>
-                    <li>In Mechanical CAD Design: 2D and 3D Designs</li>
+                <h2>Blended Learning for Polytechnic <br> And Engineering Students</h2><br>
+                <ul class="fs-4">
+                    <li>Engineering Designs and Programming </li>
+                    <li>Mechanical CAD Design: 2D and 3D Designs</li>
+                    <li>PLC and Industrial Automation</li>
+                    <li>Single Sided and Double Sided PCB Design</li>
+                    <li>Microcontrollers Based Electrical Power Control</li>
+                    <li>Microcontrollers and Embedded System Design</li>
+                    <li>Programming In C/C++, JAVA, and Python.</li>
+                    <li>Programmable VLSI Design - VHDL and Verilog Programming </li>
                     <li>All Skills with Industry Oriented Design Approach </li>
                 </ul>
 
@@ -207,7 +209,7 @@
         <div class="contact-form my-5 d-flex  justify-content-center align-items-center ">
 
             <form id="contact-form" class="row justify-content-center g-3">
-                <input type="hidden" name="subject" value="Main From Website">
+                <input type="hidden" name="subject" value="Mail From Website">
                 <div class="col-md-8">
                     <label for="validationCustom01" class="form-label">Full name</label>
                     <input type="text" class="form-control" name="name" id="validationCustom01" required>
@@ -240,7 +242,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
-            emailjs.init("user_a5dCd5aeoMXSEYOh6d9FD");
+            emailjs.init("user_lqPBnIM4sv7mOLjldbDRt");
         })();
     </script>
 
@@ -252,8 +254,8 @@
                 // generate a five digit number for the contact_number variable
                 // this.contact_number.value = Math.random() * 100000 | 0;
                 // these IDs from the previous steps
-                emailjs.sendForm("service_4g5i40q",
-                    "template_bvgx0jx",
+                emailjs.sendForm("service_d54pkij",
+                    "template_8y2lfjg",
                     event.target)
                     .then(function () {
                         console.log('SUCCESS!');
